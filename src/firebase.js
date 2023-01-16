@@ -5,12 +5,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "@firebase/firestore";
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyANkHsV11WbHGfzxKeAHiQcGR9dDkr9mb4",
-  authDomain: "jumsite-a9a31.firebaseapp.com",
-  projectId: "jumsite-a9a31",
-  storageBucket: "jumsite-a9a31.appspot.com",
-  messagingSenderId: "158421009323",
-  appId: "1:158421009323:web:a60cd4b85e496a2a3088ee",
+apiKey: "AIzaSyB5InEm5zVZh2MreH7jaXwY1IQrX3kHTLY",
+  authDomain: "workshop-platform-demo.firebaseapp.com",
+  projectId: "workshop-platform-demo",
+  storageBucket: "workshop-platform-demo.appspot.com",
+  messagingSenderId: "183619818258",
+  appId: "1:183619818258:web:a7fdb084821812f81619cb",
+  measurementId: "G-LZD37GE0P4"
 };
 
 // Initialize Firebase

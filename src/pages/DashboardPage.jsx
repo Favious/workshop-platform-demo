@@ -11,7 +11,7 @@ export default function DashboardPage() {
   useEffect(() => {
     const fetchData = async () => {
       const totalOrdersFromThisYearResponse = await fetch(
-        "https://us-central1-jumsite-a9a31.cloudfunctions.net/countOrdersForCurrentYear"
+        "https://us-central1-workshop-platform-demo.cloudfunctions.net/countOrdersForCurrentYear"
       );
       setTotalOrdersFromThisYear(await totalOrdersFromThisYearResponse.json());
     };

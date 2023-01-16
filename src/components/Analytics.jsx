@@ -13,15 +13,15 @@ export default function Analytics(props) {
   useEffect(() => {
     const fetchData = async () => {
       const activeOrdersResponse = await fetch(
-        "https://us-central1-jumsite-a9a31.cloudfunctions.net/countOrdersWithStatus1"
+        "https://us-central1-workshop-platform-demo.cloudfunctions.net/countOrdersWithStatus1"
       );
       setActiveOrders(await activeOrdersResponse.json());
       const monthSalesResponse = await fetch(
-        "https://us-central1-jumsite-a9a31.cloudfunctions.net/getTotalPriceForCurrentMonth"
+        "https://us-central1-workshop-platform-demo.cloudfunctions.net/getTotalPriceForCurrentMonth"
       );
       setMonthSales(await monthSalesResponse.json());
       const newMonthClientsResponse = await fetch(
-        "https://us-central1-jumsite-a9a31.cloudfunctions.net/countNewClientsForCurrentMonth"
+        "https://us-central1-workshop-platform-demo.cloudfunctions.net/countNewClientsForCurrentMonth"
       );
       setNewMonthClients(await newMonthClientsResponse.json());
     };

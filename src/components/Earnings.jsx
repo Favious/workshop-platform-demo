@@ -26,7 +26,7 @@ export default function Earnings() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://us-central1-jumsite-a9a31.cloudfunctions.net/getTotalPricesByMonth"
+          "https://us-central1-workshop-platform-demo.cloudfunctions.net/getTotalPricesByMonth"
         );
         let json = await response.json();
         json = json.map((ob) => ({
