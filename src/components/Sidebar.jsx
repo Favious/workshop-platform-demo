@@ -73,7 +73,7 @@ export default function Sidebar() {
 
   useOnClickOuside(ref, closeMenu);
 
-  return isSignedIn() ? (
+  return (
     <>
       <Section>
         <div className="top">
@@ -200,9 +200,7 @@ export default function Sidebar() {
         </div>
       </ResponsiveNav>
     </>
-  ) : (
-    <></>
-  );
+  ) ;
 }
 const Section = styled.section`
   position: fixed;

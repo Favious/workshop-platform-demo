@@ -27,22 +27,23 @@ export default function App() {
           <AuthProvider>
             <Sidebar />
             <Routes>
-                <Route exact path="/" element={<Dashboard />}></Route>
+                <Route exact path="/" element={<Dashboard />}/>
                 <Route
                   path="/orders"
                   element={<MainComponent children={<OrdersListPage />} />}
-                ></Route>
+                />
                 <Route
                   path="/create_order"
                   element={<MainComponent children={<CreateOrder />} />}
-                ></Route>
+                />
                 <Route
                   path="/orders/edit/:order_id"
                   element={<MainComponent children={<EditOrderPage />} />}
-                ></Route>
+                />
+                <Route
                   path="/orders/services/:order_id"
                   element={<MainComponent children={<ServicesSparesPage />} />}
-                ></Route>
+                />
 
               <Route path="/login" element={<LoginPage />} />
             </Routes>
