@@ -27,33 +27,22 @@ export default function App() {
           <AuthProvider>
             <Sidebar />
             <Routes>
-              <Route element={<PrivateRoute />}>
                 <Route exact path="/" element={<Dashboard />}></Route>
-              </Route>
-              <Route element={<PrivateRoute />}>
                 <Route
                   path="/orders"
                   element={<MainComponent children={<OrdersListPage />} />}
                 ></Route>
-              </Route>
-              <Route element={<PrivateRoute />}>
                 <Route
                   path="/create_order"
                   element={<MainComponent children={<CreateOrder />} />}
                 ></Route>
-              </Route>
-              <Route element={<PrivateRoute />}>
                 <Route
                   path="/orders/edit/:order_id"
                   element={<MainComponent children={<EditOrderPage />} />}
                 ></Route>
-              </Route>
-              <Route element={<PrivateRoute />}>
-                <Route
                   path="/orders/services/:order_id"
                   element={<MainComponent children={<ServicesSparesPage />} />}
                 ></Route>
-              </Route>
 
               <Route path="/login" element={<LoginPage />} />
             </Routes>
