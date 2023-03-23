@@ -79,7 +79,7 @@ export default function Sidebar() {
         <div className="top">
           <div className="brand">
             <span>
-              <img src="https://i.imgur.com/rHjz0Di.png" />
+              <img src="https://i.imgur.com/bhkfaAn.png" />
             </span>
           </div>
           <div className="toggle">
@@ -200,7 +200,7 @@ export default function Sidebar() {
         </div>
       </ResponsiveNav>
     </>
-  ) ;
+  );
 }
 const Section = styled.section`
   position: fixed;
@@ -242,7 +242,7 @@ const Section = styled.section`
         font-style: italic;
         img {
           width: 250px;
-          height: 55px;
+          height: 75px;
         }
       }
     }

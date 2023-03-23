@@ -6,10 +6,10 @@ export default function Profile(props) {
   return (
     <Section>
       <div className="image">
-        <img src={"https://i.imgur.com/wKBO6wg.jpg"} alt="" />
+        <img src={"https://imgur.com/E2Q0b2g.png"} alt="" />
       </div>
       <div className="title">
-        <h2>Jums Competicion</h2>
+        <h2>Admintask Pro</h2>
         <h5>
           <HiOutlineLocationMarker /> Cbba, Bolivia
         </h5>
