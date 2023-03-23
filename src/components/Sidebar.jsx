@@ -79,7 +79,7 @@ export default function Sidebar() {
         <div className="top">
           <div className="brand">
             <span>
-              <img src="https://i.imgur.com/bhkfaAn.png" />
+              <img src="https://i.ibb.co/BfVXwv4/Screen-Shot-2023-03-22-at-9-10-34-PM-removebg-preview.png" />
             </span>
           </div>
           <div className="toggle">
